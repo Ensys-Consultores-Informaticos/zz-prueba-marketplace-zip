@@ -1,0 +1,17 @@
+{
+  "name": "zz-prueba-zip",
+  "owner": { "name": "Ensys Consultores Informaticos, S.L." },
+  "description": "PRUEBA DESECHABLE. Comprueba si la aplicacion de escritorio acepta un plugin servido como zip, con cabecera.",
+  "plugins": [
+    {
+      "name": "prueba-zip",
+      "description": "PRUEBA DESECHABLE: un skill que solo saluda, servido como zip.",
+      "source": {
+        "source": "archive",
+        "url": "https://github.com/Ensys-Consultores-Informaticos/zz-prueba-marketplace-zip/releases/download/v0/prueba-zip.zip",
+        "sha256": "c765150b52937c45757ba6ae186749427e3d432f2adf7a05f0f6c30d939ca719"
+      },
+      "headers": { "Authorization": "Bearer prueba-no-es-un-secreto" }
+    }
+  ]
+}
